@@ -1,0 +1,19 @@
+body{
+    background-color: #b63636;
+}
+.bar__conteiner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bar__element{
+    float: left;
+    width: 25%;
+    background-color: #dddd38;
+    padding: 10px;
+    text-align: center;
+}
+div.bar__element:hover{
+    background-color: #aabb33;
+}

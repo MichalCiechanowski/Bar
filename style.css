@@ -1,19 +1,43 @@
 body{
-    background-color: #b63636;
+    background-color: chocolate;
 }
+
 .bar__conteiner{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
+
 .bar__element{
     float: left;
     width: 25%;
-    background-color: #dddd38;
     padding: 10px;
     text-align: center;
 }
-div.bar__element:hover{
-    background-color: #aabb33;
+
+#I,#II,#III,#IV{
+    position: relative;
+    display: inline-block;
+    padding: 15px 50px;
+    border-bottom:  5px solid rgb(0, 255, 115);
+    color: #B17461;
+    font-size: 30px;
+    background-image: linear-gradient(rgb(0, 255, 115), rgb(0, 255, 115));
+    background-repeat: no-repeat;
+    transition: background-size .5s, color .5s;
+}
+
+.bar__element{
+    background-position: 50% 100%;
+    background-size: 100% 0%;
+}
+
+.bar__element:hover{
+    background-size: 100% 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
